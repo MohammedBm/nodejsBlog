@@ -5,6 +5,8 @@ var bodyParser      = require("body-parser"),
     express         = require("express"),
     app             = express();
 
+
+app.set('port', (process.env.PORT || 5000))
 //apps config
 mongoose.connect("mongodb://localhost/restful_blog_app");
 app.set("view engine","ejs");

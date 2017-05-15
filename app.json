@@ -1,0 +1,9 @@
+{
+    "name":"Node.js Blog",
+    "description":"A node js blog created by me using udemy course",
+    "repository":"https://github.com/MohammedBm/nodejsBlog",
+    "logo": "https://small-sharp-tool.com/logo.svg",
+    "keyword": ["node", "express","static","mongoose", "body-parser"],
+    "image": "heroky/nodejs"
+
+}
